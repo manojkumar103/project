@@ -1,0 +1,132 @@
+.section_1{
+
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.section_1 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.section_1 .logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.section_1 .logo img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.section_1 .logo span{
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section_1 nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section_1 .login button {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section_1 main {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.section_1 .hero {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.section_1 .icon-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.section_1 .center-icon {
+    width: 80px;
+    position: relative;
+    height: 80px;
+    margin-bottom: 20px;
+    top: 60px;
+}
+
+.section_1 .icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 600px;
+    right: 0px;
+    top: 90px;
+    
+}
+
+.section_1 .icon:nth-child(2) { /* Adjust position for the first small icon */
+    top: 80px;
+    left: 150px;
+    
+}
+
+.section_1 .icon:nth-child(3) { /* Adjust position for the second small icon */
+    top: -40px;
+    left: 250px;
+    right: 0px;
+
+    
+}
+
+.section_1 .icon:nth-child(4) { /* Adjust position for the third small icon */
+    bottom: 10px;
+    left:530px;
+    right: 0px;
+    top: -40px;
+    transform: translateX(-50%);
+}
+
+.section_1 h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.section_1 p {
+    font-size: 14px;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.section_1 .generate {
+    padding: 15px 10px;
+    position: relative;
+    background-color: #a6ec6d;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1em;
+    top: 50px;
+    
+    
+    
+}

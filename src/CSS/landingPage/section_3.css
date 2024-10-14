@@ -1,0 +1,396 @@
+.section_3{
+
+    background-color: white;
+    position: relative;
+    /* overflow: hidden; */
+    
+}
+
+
+
+.section_3 .header{
+
+    position: relative;
+    text-align: center;
+    margin-top: 90px;
+    font-size:1.3rem;
+
+
+}
+
+.section_3 .brand-logos{
+
+    position: relative;
+    display: flex;
+    margin-top: 90px;
+    flex-direction: row;
+    /* gap: 5px; */
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    /* grid-template-columns: auto auto auto auto; */
+} 
+
+.section_3 .brand-logos img{
+
+    position: relative;
+    width: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.section_3 .brand-logos1 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section_3 .brand-logos1 img{
+
+    position: relative;
+    width: 80px;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+
+}
+
+.section_3 .flex-container{
+
+    position: relative;
+    display: flex;
+    /* grid-template-columns: auto auto; */
+    margin-top: 70px;
+    flex-direction: row;
+    gap: 90px;
+    margin-left: auto;
+    justify-content: center;
+    margin-right: auto;
+
+      
+
+
+}
+
+.section_3 .flex-container .image img{
+
+    position: relative;
+    width: 350px;
+    border-radius: 10px;
+
+}
+
+.section_3 .flex-container .text h1{
+
+    position: relative;
+    margin-top: 90px;
+    font-size: 2.5rem;
+}
+
+.section_3 .flex-container .text h2{
+
+    position: relative;
+    margin-top:10px;
+    font-size: 1rem;
+    color: #c1bfca;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.section_3 .flex-container .text button{
+
+    position: relative;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #cdfe7e;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+.section_3 .icons{
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /* grid-template-columns: auto auto auto; */
+    margin-top: 90px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    justify-content: center;
+    gap: 90px;
+}
+
+.section_3 .icons .icon1 img{
+
+    position: relative;
+    width: 30px;
+   
+    border-radius: 10px;
+}
+
+.section_3 .icons .icon1 h3{
+
+    position: relative;
+    font-size: 1rem;
+    margin-left: 40px;
+    bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section_3 .icons .icon1 span{
+
+    position: relative;
+    font-size: 13px;
+    /* margin-left: 28px; */
+    left: 40px;
+    bottom: 5px;
+}
+
+
+
+.section_3 .icons .icon2 img{
+
+    position: relative;
+    width: 30px;
+   
+    border-radius: 10px;
+}
+
+.section_3 .icons .icon2 h3{
+
+    position: relative;
+    font-size: 1rem;
+    margin-left: 40px;
+    bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section_3 .icons .icon2 span{
+
+    position: relative;
+    font-size: 13px;
+    /* margin-left: 28px; */
+    left: 40px;
+    bottom: 5px;
+}
+
+.section_3 .icons .icon3 img{
+
+    position: relative;
+    width: 30px;
+    border-radius: 10px;
+}
+
+.section_3 .icons .icon3 h3{
+
+    position: relative;
+    font-size: 1rem;
+    margin-left: 40px;
+    bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section_3 .icons .icon3 span{
+
+    position: relative;
+    font-size: 13px;
+    /* margin-left: 28px; */
+    left: 40px;
+    bottom: 5px;
+}
+
+
+
+
+/* .section_3 .brands-logos{
+    position: relative;
+}
+.section_3 .brands-logos img{
+    position: relative;
+    width: 200px;
+    object-fit: cover;
+}
+
+.section_3 .samsung{
+
+    position: relative;
+    width: 160px;
+    top: -700px;
+    left: 90px;
+}
+
+.section_3 .tesla{
+
+    position: relative;
+    top: -670px;
+    left: 150px;
+    right: 0px;
+}
+
+.section_3 .Decathlon{
+
+    position: relative;
+    top: -650px;
+    width: 230px;
+    left: 220px;
+}
+
+.section_3 .ibm{
+
+    position: relative;
+    width: 100px;
+    top: -690px;
+    left: 280px;
+}
+
+.section_3 .forbes{
+
+    position: relative;
+    width: 130px;
+    top: -690px;
+    left: 350px;
+}
+
+.section_3 .slack{
+
+    position: relative;
+    width: 130px;
+    top: -600px;
+    right: 530px;
+}
+
+.section_3 .dropbox{
+
+    position: relative;
+    width: 170px;
+    top:-600px ;
+    right: 400px;
+}
+
+.section_3 .cococola{
+
+    position: relative;
+    width: 150px;
+    top: -540px;
+    right: 300px;
+}
+
+.section_3 .image{
+
+    position: relative;
+    top: -500px;
+    left: 100px;
+    border-radius: 20px;
+    width: 600px;
+    object-fit: cover;
+}
+
+.section_3 .text{
+
+    position: relative;
+    top: -840px;
+    left: 850px;
+    font-size: 3rem;
+}
+
+.section_3 h2{
+
+    position: relative;
+    font-size: 1.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    left: 860px;
+    top: -820px;
+    font-weight: lighter;
+}
+
+.section_3 .button{
+
+    position: relative;
+    left: 850px;
+    top: -750px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color:#cdfe7e;
+    border-style: hidden;
+}
+
+.section_3 .icon1{
+
+    position: relative;
+    width: 30px;
+    top: -550px;
+    right: 80px;
+    background-color:azure;
+}
+
+.section_3 .text1 h3{
+
+    position: relative;
+    top: -585px;
+    left: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section_3 .text1 span{
+
+    position: relative;
+    top: -580px;
+    left: 150px;
+    font-size: 12px;
+}
+
+.section_3 .icon2{
+
+    position: relative;
+    width: 30px;
+    top: -640px;
+    left: 350px;
+    background-color: azure;
+}
+
+.section_3 .text2 h3{
+
+    position: relative;
+    left: 580px;
+    top:-670px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section_3 .text2 span{
+
+    position: relative;
+    left: 580px;
+    top: -660px;
+}
+
+.section_3 .icon3{
+
+    position: relative;
+    width: 30px;
+    left: 870px;
+    top: -730px;
+    background-color: azure;
+}
+
+.section_3 .text3 h3{
+
+    position: relative;
+    left: 990px;
+    font-size: 1rem;
+    top: -760px;
+}
+
+.section_3 .text3 span{
+
+    position: relative;
+    left: 990px;
+    top: -750px;
+} */
